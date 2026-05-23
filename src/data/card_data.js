@@ -1,7 +1,7 @@
 
 import calatheaPlant from "../assets/calatheaPlant.png"
 import deskPlant from "../assets/deskPlant.png"
-import calatheaaiPlant from "../assets/calathecaiPlant.png"
+import calatheaaiPlant from "../assets/CalathecaiPlant.png"
 import cal874Plant from "../assets/cal874Plant.png"
 import showPlant from "../assets/showPlant.png"
 import calatO2Plant from "../assets/calatO2plant.png"
