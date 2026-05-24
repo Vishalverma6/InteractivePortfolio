@@ -12,7 +12,7 @@ const Largecard = ({
     return (
         <div
             className={`relative overflow-visible flex flex-col md:flex-row ${reverse ? 'md:flex-row-reverse' : ''
-                } items-center justify-between gap-10 bg-white/10 text-white p-8 rounded-[40px] h-[300px] w-full backdrop-blur-sm`}
+                } items-center justify-between gap-10 bg-white/10 text-white p-8 rounded-[40px] h-[600px] md:h-[300px] w-full backdrop-blur-sm`}
         >
 
             {/* Blue Blur Background */}
@@ -56,16 +56,16 @@ const Largecard = ({
                     </button>
 
                     {
-                        cartImage && (
-                            <div className='bg-white/10 p-2 rounded-md border cursor-pointer hover:bg-white/20 transition-all duration-300'>
-                                <img
-                                    src={cartImage}
-                                    alt="cart"
-                                    className='w-6 h-6 object-contain'
-                                />
-                            </div>
-                        )
-                    }
+  cartImage && (
+    <div className='bg-white/10 p-2 rounded-md border cursor-pointer hover:bg-white/20 transition-all duration-300'>
+      <img
+        src={cartImage}
+        alt="cart"
+        className='w-6 h-6 object-contain'
+      />
+    </div>
+  )
+}
                 </div>
             </div>
         </div>
